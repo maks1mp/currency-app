@@ -70,8 +70,6 @@ class CurrencyCalculator extends React.Component {
                 reverse
             };
 
-        console.log(rate);
-
         return (currency && rate) ? (
             <div>
                 <Grid container className={classes.root}>
